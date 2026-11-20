@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Categorias · Central de Fluxos</title>
+<meta name="description" content="Escolha uma categoria para ver os fluxogramas.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-root="../" data-pagina="categorias">
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<div class="pagina">
+<header class="topo">
+  <div class="miolo marca-linha">
+    <a class="marca" href="../index.html"><img src="../assets/images/logo-oficial.png" alt="PET-Saúde Informação e Saúde Digital. Ir para o início."></a>
+    <span class="nome-site">Central de Fluxos</span>
+  </div>
+  <nav class="menu" aria-label="Principal"><div class="miolo">
+    <a href="../index.html">Início</a>
+    <a href="../pages/categorias.html" aria-current="page">Categorias</a>
+  </div></nav>
+</header>
+<div class="aviso"><div class="miolo"><strong>Protótipo com conteúdo de exemplo.</strong> Os fluxogramas oficiais serão acrescentados depois.</div></div>
+<main id="conteudo">
+<div class="miolo">
+  <section class="abertura">
+    <h1>Categorias</h1>
+    <form class="busca" role="search" action="../pages/categorias.html" method="get">
+      <label class="so-leitor" for="q">Buscar fluxograma</label>
+      <input id="q" name="q" type="search" placeholder="Buscar por assunto. Ex.: sífilis" autocomplete="off">
+      <button class="botao" type="submit">Buscar</button>
+    </form>
+  </section>
+  <section class="bloco"><h2 class="so-leitor">Categorias</h2><ul class="cats" id="categorias"></ul></section>
+  <section class="bloco" id="lista" aria-labelledby="lista-titulo" aria-live="polite">
+    <h2 id="lista-titulo">Todos os fluxogramas</h2>
+    <ul class="docs" id="lista-itens"></ul>
+    <div><a class="botao claro" id="limpar" href="categorias.html" hidden>Ver todos</a></div>
+  </section>
+</div>
+</main>
+<footer class="rodape"><div class="miolo">
+  <strong>PET-Saúde Digital · Central de Fluxos</strong>
+  <span>Universidade Federal de Sergipe, Campus Lagarto, com a Secretaria Municipal de Saúde de Lagarto/SE</span>
+</div></footer>
+</div>
+<script src="../js/dados.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>

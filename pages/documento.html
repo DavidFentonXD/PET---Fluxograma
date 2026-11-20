@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fluxograma · Central de Fluxos</title>
+<meta name="description" content="Visualização de fluxograma em PDF.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body data-root="../" data-pagina="documento">
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<div class="pagina">
+<header class="topo">
+  <div class="miolo marca-linha">
+    <a class="marca" href="../index.html"><img src="../assets/images/logo-oficial.png" alt="PET-Saúde Informação e Saúde Digital. Ir para o início."></a>
+    <span class="nome-site">Central de Fluxos</span>
+  </div>
+  <nav class="menu" aria-label="Principal"><div class="miolo">
+    <a href="../index.html">Início</a>
+    <a href="../pages/categorias.html" aria-current="page">Categorias</a>
+  </div></nav>
+</header>
+<div class="aviso"><div class="miolo"><strong>Protótipo com conteúdo de exemplo.</strong> Os fluxogramas oficiais serão acrescentados depois.</div></div>
+<main id="conteudo">
+<div class="miolo" id="doc">
+  <nav class="trilha" aria-label="Trilha"><a href="../index.html">Início</a> / <a id="trilha-cat" href="categorias.html">Categoria</a> / <span id="trilha-fim"></span></nav>
+  <section class="abertura">
+    <span class="etiqueta">PDF</span>
+    <h1 id="doc-titulo"></h1>
+    <p id="doc-cat"></p>
+    <div class="acoes"><a class="botao" id="abrir" href="#" target="_blank" rel="noopener">Abrir em tela cheia</a><a class="botao claro" id="baixar" href="#" download>Baixar PDF</a><a class="botao claro" id="voltar-cat" href="categorias.html">Voltar à categoria</a></div>
+  </section>
+  <div class="leitor" id="leitor"></div>
+  <section class="bloco"><h2>Outros fluxogramas desta categoria</h2><ul class="docs" id="outros"></ul></section>
+</div>
+</main>
+<footer class="rodape"><div class="miolo">
+  <strong>PET-Saúde Digital · Central de Fluxos</strong>
+  <span>Universidade Federal de Sergipe, Campus Lagarto, com a Secretaria Municipal de Saúde de Lagarto/SE</span>
+</div></footer>
+</div>
+<script src="../js/dados.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>

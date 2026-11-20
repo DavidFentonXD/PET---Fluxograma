@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PET-Saúde Digital · Central de Fluxos</title>
+<meta name="description" content="Consulte fluxogramas assistenciais da rede de saúde de Lagarto/SE.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-root="" data-pagina="inicio">
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<div class="pagina">
+<header class="topo">
+  <div class="miolo marca-linha">
+    <a class="marca" href="index.html"><img src="assets/images/logo-oficial.png" alt="PET-Saúde Informação e Saúde Digital. Ir para o início."></a>
+    <span class="nome-site">Central de Fluxos</span>
+  </div>
+  <nav class="menu" aria-label="Principal"><div class="miolo">
+    <a href="index.html" aria-current="page">Início</a>
+    <a href="pages/categorias.html">Categorias</a>
+  </div></nav>
+</header>
+<div class="aviso"><div class="miolo"><strong>Protótipo com conteúdo de exemplo.</strong> Os fluxogramas oficiais serão acrescentados depois.</div></div>
+<main id="conteudo">
+<section class="faixa"><div class="miolo abertura">
+  <h1>Fluxogramas da rede, em um só lugar</h1>
+  <p>A Central de Fluxos reúne os fluxogramas de atendimento em PDF para consulta rápida pelos profissionais de saúde. Projeto PET-Saúde: Informação e Saúde Digital, Lagarto/SE.</p>
+  <form class="busca" role="search" action="pages/categorias.html" method="get">
+      <label class="so-leitor" for="q">Buscar fluxograma</label>
+      <input id="q" name="q" type="search" placeholder="Buscar por assunto. Ex.: sífilis" autocomplete="off">
+      <button class="botao" type="submit">Buscar</button>
+    </form>
+</div></section>
+<div class="miolo">
+  <section class="bloco" aria-labelledby="h-cat">
+    <h2 id="h-cat">Categorias</h2>
+    <ul class="cats" id="categorias"></ul>
+  </section>
+  <section class="bloco" aria-labelledby="h-como">
+    <h2 id="h-como">Como consultar</h2>
+    <ol class="como">
+      <li><b>Escolha uma categoria</b> ou use a busca.</li>
+      <li><b>Toque em Visualizar PDF</b> para ver o fluxograma aqui mesmo, sem baixar.</li>
+      <li><b>Use Baixar PDF</b> se quiser guardar uma cópia.</li>
+    </ol>
+  </section>
+</div>
+</main>
+<footer class="rodape"><div class="miolo">
+  <strong>PET-Saúde Digital · Central de Fluxos</strong>
+  <span>Universidade Federal de Sergipe, Campus Lagarto, com a Secretaria Municipal de Saúde de Lagarto/SE</span>
+</div></footer>
+</div>
+<script src="js/dados.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
